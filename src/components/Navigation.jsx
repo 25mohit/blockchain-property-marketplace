@@ -15,7 +15,7 @@ const Navigation = ({ account, setAccount }) => {
                 <li><a href="">Sell</a></li>
             </ul>
             <div className="nav__brand">
-                <h1>Millow<FaBitcoin />dApp</h1>
+                <h1>Millow<FaBitcoin id="icon" />dApp</h1>
             </div>
             {
                 account ? 

@@ -11,7 +11,7 @@ contract RealEstate is ERC721URIStorage {
 
     constructor() ERC721("Real Estate", "REAL") public{}
 
-    function min(string memory tokenURI) public returns (uint256){
+    function mint(string memory tokenURI) public returns (uint256){
         _tokenIds.increment();
 
         uint256 newItemId = _tokenIds.current();
